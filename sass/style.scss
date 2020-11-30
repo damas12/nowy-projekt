@@ -18,14 +18,14 @@ body {
     z-index: -1;
     width: 100%;
     object-fit: cover;
-    height: 800px;
+    height: 850px;
     left: 0px;
     top: 0px;
 
     img {
         width: 100%;
         object-fit: cover;
-        height: 800px;
+        height: 850px;
     }
 
     &::before {
@@ -39,7 +39,7 @@ body {
 }
 
 .top-title-navigation {
-    height: 800px;
+    height: 850px;
 }
 
 .top-title-navigation .row {
@@ -174,4 +174,46 @@ body {
 .our-portfolio .card-body {
     background: $color-one;
     padding-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+footer .row {
+    padding: 50px 0px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0 220px;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    font-size: 0px;
+
+    a {
+        text-decoration: none;
+        color: $color-one;
+
+    }
+
+    i {
+        font-size: 15px;
+        width: 41px;
+        height: 40px;
+        background-color: #222222;
+        border-radius: 50%;
+        padding-top: 12px;
+    }
 }
