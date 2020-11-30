@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Wisdom Script Regular'), url('../Wisdom\ Script\ AJ.woff') format('woff');
+}
+
+$color-one: #ffffff;
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* TOP TITLE AND NAVIGATION */
+.background-img-container {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 700px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        background: #000000;
+        opacity: 0.5;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.top-title-navigation .row {
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.navigation ul {
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 36px;
+    position: relative;
+
+    a {
+        text-decoration: none;
+        color: $color-one;
+        line-height: 41px;
+    }
+}
+
+.main-title {
+    font-family: 'Wisdom Script Regular';
+    color: #fed136;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 1.3px;
+}
+
+.splash {
+    color: $color-one;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.page-title {
+    font-family: Droid Serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.page-sub-title {
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1.88px;
+}
+
+.btn {
+    background-color: #fed136;
+    text-decoration: none;
+    color: $color-one;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 22px 60px;
+    border-radius: 3px;
+}
