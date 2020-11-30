@@ -16,7 +16,7 @@ body {
   z-index: -1;
   width: 100%;
   object-fit: cover;
-  height: 700px;
+  height: 800px;
   left: 0px;
   top: 0px;
 }
@@ -24,7 +24,7 @@ body {
 .background-img-container img {
   width: 100%;
   object-fit: cover;
-  height: 700px;
+  height: 800px;
 }
 
 .background-img-container::before {
@@ -34,6 +34,10 @@ body {
   opacity: 0.5;
   height: 100%;
   width: 100%;
+}
+
+.top-title-navigation {
+  height: 800px;
 }
 
 .top-title-navigation .row {
@@ -72,7 +76,6 @@ body {
 .splash {
   color: #ffffff;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .page-title {
@@ -97,5 +100,44 @@ body {
   text-transform: uppercase;
   padding: 22px 60px;
   border-radius: 3px;
+}
+
+/* SERVICES */
+.services {
+  margin: 118px 0;
+}
+
+.services-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.services-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.services-title h3 {
+  font-family: droid-serif, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  color: #777777;
+}
+
+.services .row {
+  text-align: center;
+}
+
+.services .row h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.services .row p {
+  font-family: "Roboto Slab";
+  color: #777777;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
